@@ -14,6 +14,6 @@ class UserLoginSchema(BaseModel):
     login: str = Field(min_length=5, max_length=20)
     password: str = Field(min_length=8, max_length=100)
 
-
+# Schema for user registration
 class UserRegisterSchema(UserLoginSchema):
     nickname: str = Field(min_length=5, max_length=20)
