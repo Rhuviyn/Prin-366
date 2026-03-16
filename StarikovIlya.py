@@ -10,7 +10,7 @@ JPY = 0.49
 while True:
     try:
         rubles = float(input("\nВведите сумму в рублях: "))
-
+        # вывод списка валют
         print("Список валют:\n" "1: USD\n" "2: EUR\n" "3: CNY\n" "4: JPY\n")
 
         currency = int(input("Введите необходимую вам валюту: "))
