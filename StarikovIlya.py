@@ -24,7 +24,7 @@ while True:
         elif(currency == 4):
             print(f"{rubles} рублей = {rubles/JPY} йен")
         else:
-            print("Ошибка!!! Такой валюты нет!")
+            print("Ошибка!!! Такой валюты нет! Повторите!")
             
     except ValueError:
         print("Ошибка. Нужно вводить числа")
