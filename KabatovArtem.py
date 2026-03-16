@@ -10,7 +10,7 @@ from datetime import datetime
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     configure_logging()
-
+    # Setting up database
     engine = get_engine()
     try:
         Base.metadata.create_all(bind=engine)
