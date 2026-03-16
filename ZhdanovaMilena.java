@@ -23,6 +23,11 @@ public class Direction {
         return new Direction(6);
     }
 
+	// branch 2
+    public boolean isOpposite(Direction other) {
+        return this.opposite().equals(other);
+    }
+	
     public static Direction east() {
         return new Direction(3);
     }
