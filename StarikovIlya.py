@@ -13,7 +13,7 @@ while True:
 
         print("Список валют:\n" "1: USD\n" "2: EUR\n" "3: CNY\n" "4: JPY\n")
 
-        currency = int(input("Введите необходимую вам валюту: "))
+        currency = int(input("Введите необходимую вам валюту в цифрах: "))
 
         if(currency == 1):
             print(f"{rubles} рублей = {rubles/USD} долларов")
